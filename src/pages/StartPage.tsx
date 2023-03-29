@@ -1,13 +1,17 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import MyButton from "../components/UI/button/MyButton";
 
 const StartPage = () => {
-    const ID = Math.floor(Math.random() * (10 - 1 + 1)) + 1;
-    return (
-      <div>
-          <Link to={`/game/${ID}`}>Start!</Link>
-      </div>
-  );
-}
+    const id = Math.floor(Math.random() * 10);
 
-export default StartPage
+    return (
+        <div className="startPage">
+            <MyButton style={{ marginTop: 350, fontWeight: 200 }} >
+                <Link to={`/game/${id}`}>Start!</Link>
+            </MyButton>
+        </div>
+    );
+};
+
+export default StartPage;

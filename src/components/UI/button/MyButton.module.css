@@ -1,0 +1,18 @@
+.myBtn{
+    
+    padding: 5px 25px;
+    text-decoration: none;
+    font-weight: 14;
+    background: rgba(255, 255, 255, 0.484);
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 30px;
+    
+    font-family: 'Kadwa';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+}
+.myBtn a{
+    color: black
+}

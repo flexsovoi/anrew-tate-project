@@ -111,11 +111,32 @@ body {
     align-items: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 400px;
+    margin-top: 300px;
 
     font-family: 'Kadwa';
         font-style: normal;
         font-weight: 400;
         font-size: 40px;
 }
+.game__input{
+    margin-top: 50px;
+}
+.navBar{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px;
+    align-items: center;
 
+}
+.startPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
